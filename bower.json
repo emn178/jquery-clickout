@@ -1,0 +1,12 @@
+{
+  "name": "jquery-clickout",
+  "version": "0.1.0",
+  "main": ["src/jquery.clickout.js"],
+  "ignore": [
+    "samples",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": ">= 1.6"
+  }
+}
