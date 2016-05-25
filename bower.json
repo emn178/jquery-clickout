@@ -1,6 +1,6 @@
 {
   "name": "jquery-clickout",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "main": ["src/jquery.clickout.js"],
   "ignore": [
     "samples",

@@ -1,3 +1,7 @@
+# v0.1.2 / 2016-05-26
+
+Clear events in turbolinks.
+
 # v0.1.1 / 2016-04-30
 
 Support mobile device
