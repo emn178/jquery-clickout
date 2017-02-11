@@ -1,9 +1,9 @@
 /**
  * [jQuery-clickout]{@link https://github.com/emn178/jquery-clickout}
  *
- * @version 0.1.2
+ * @version 0.1.3
  * @author Chen, Yi-Cyuan [emn178@gmail.com]
- * @copyright Chen, Yi-Cyuan 2015-2016
+ * @copyright Chen, Yi-Cyuan 2015-2017
  * @license MIT
  */
 (function ($) {
@@ -20,7 +20,7 @@
   function onClickDocument(e) {
     observations = observations.filter(SELECTOR);
     observations.each(function (index, element) {
-      if (!$.contains(element, e.target)) {
+      if (element !== e.target && !$.contains(element, e.target)) {
         var handlers = $(element).data(KEY);
         for (var i = 0;i < handlers.length;++i) {
           handlers[i].call($(element), $.Event('clickout', { target: e.target }));
