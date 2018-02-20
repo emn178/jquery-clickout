@@ -1,0 +1,19 @@
+{
+  "name": "jquery-clickout",
+  "version": "0.1.4",
+  "description": "A jQuery plugin provides clickout event.",
+  "main": "src/jquery.clickout.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/paulodrade/jquery-clickout.git"
+  },
+  "author": "emn178",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/paulodrade/jquery-clickout/issues"
+  },
+  "homepage": "https://github.com/paulodrade/jquery-clickout#readme"
+}
